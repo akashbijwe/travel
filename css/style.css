@@ -1,0 +1,271 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #BD667D;
+  color: #fff;
+  transition: 3s;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.clearfix:before, .clearfix:after{
+  clear: both
+}
+.c{
+  color: rgba(255, 255, 255, .8);
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.dn{
+  display: none;
+}
+.pr{
+  position: relative;
+}
+.pa{
+  position: absolute;
+}
+.tc{
+  text-align: center;
+}
+.mt50{
+  margin-top: 50px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.f20{
+  font-size: 20px;
+}
+.f25{
+  font-size: 25px;
+}
+.plr20{
+  padding: 0 20px;
+}
+.main_container{
+  margin: 50px auto 10px auto;
+  width: 310px;
+  height: 410px;
+  overflow: hidden;
+  position: relative;
+}
+.first, .second, .third{
+  background-color: rgba(0,0,0,.1);
+  border-radius: 5px;
+  width: 300px;
+  height: 400px;
+  margin: 10px; 
+  position: absolute;
+}
+.bag_container{
+  padding-top: 100px;
+  text-align: center;
+}
+.bag{
+  width: 100px;
+  margin: 0 auto;
+}
+.bag .base{
+  background-color: #E2574C;
+  height: 85px;  
+  border-radius: 5px;
+  margin-top: -10px;
+}
+.bag  .left_pocket, .right_pocket{
+  background-color: #BF392C;
+  height: 50px;
+  width: 10px;
+}
+.bag  .right_pocket{
+  border-top-right-radius: 5px;  
+  border-bottom-right-radius: 5px;
+  right: -10px;
+  top: 25px;
+}
+.bag  .left_pocket{
+  border-top-left-radius: 5px;  
+  border-bottom-left-radius: 5px;
+  left: -10px;
+  top: 25px;
+}
+.bag .head{
+  background-color: #BF392C;
+  height: 45px;
+  border-radius: 15px;
+  width: 110px;
+  z-index: 5;
+  left: -5px;
+  top: -30px;
+}
+.bag .handle{
+  border: 10px solid #324D5B;
+  height: 20px;
+  width: 20px;
+  top: -48px;
+  border-radius: 50%;
+  left: 30px;
+}
+.belt{
+  height: 80px;
+  width: 12px;
+  background-color: #EFC75E;
+  top: -30px;
+  z-index: 6;
+}
+.bag .belt1{
+  left: 18px;
+}
+.bag .belt2{
+  right: 18px;
+}
+.bag .clip{
+  background-color: #E4E7E7;
+  height: 15px;
+  width: 20px;
+  top: 25px;
+  z-index: 7;
+}
+.bag .clip1{
+  left: 14px;
+}
+.bag .clip2{
+  right: 14px;
+}
+
+.bookshelf{
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 100px;
+  background-color: #F2EBD9;
+  height: 130px;
+  border: 4px solid #062746;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.bookshelf .window_container{
+  background-color: #FFCC75;
+  height: 106px;
+  margin-top: 20px;
+  border-top: 4px solid #062746; 
+}
+.bookshelf .window{
+  border: 4px solid #062746;
+  width: 80px;
+  height: 45px;
+  margin: 7px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.book{
+  border-right: 4px solid #062746; 
+  width: 17px;
+  height: 100%;
+  float: left;
+}
+.book1{
+  background-color: #F2484B;
+}
+.book2{
+  background-color: #FF9D49;
+}
+.book3{
+  background-color: #6DA8D6;
+}
+.book4{
+  background-color: #98D9D5;
+  border-right: 0px;
+}
+.top_books{
+  position: absolute;
+  height: 36px;
+  top: -44px;
+  left: 6px;
+}
+.top_books .book1{
+  border-left: 4px solid #062746;
+  border-top: 4px solid #062746;
+  border-top-left-radius: 5px;
+}
+.top_books .book2{
+  border-top: 4px solid #062746; 
+  border-top-right-radius: 5px;
+}
+.chat_container{
+  padding-top: 85px;
+  text-align: center;
+  margin: 0 auto 100px auto;
+  width: 140px;
+}
+.chat{
+  height: 70px;
+  width: 100px;
+  border-radius: 10px;
+} 
+.chat:after{
+  content: '';
+  position: absolute;
+  left: 20px;
+  bottom: -20px;
+  border-right: 30px solid transparent;
+  border-left: 0px solid transparent;
+  border-top: 30px solid #fff;
+}
+.chat1{
+  background-color: #EBBA16;
+  z-index: 3;
+}
+.chat2{
+  background-color: #ED8A19;
+  margin-top: -100px;
+  margin-left: 40px;
+  transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ie-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+}
+.chat1:after{
+  border-top: 30px solid #EBBA16;
+}
+.chat2:after{
+  border-top: 30px solid #ED8A19;
+}
+.circle_container{
+  padding-left: 18px;
+}
+.chat1 .circle{
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  float: left;
+  margin-left: 7px;
+  margin-top: 30px;
+}
+.navigations{
+  margin: 0px auto;
+  width: 300px;
+}
+.navigations .left, .navigations .right{
+  background-color: rgba(0,0,0,.3);
+  height: 22px;
+  width: 7px;
+  border-radius: 50%;
+  text-transform: capitalize;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+.first{
+  left: 0;
+}
+.second{
+  left: 300px;
+}
+.third{
+  left: 600px;
+}
